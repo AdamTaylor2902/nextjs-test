@@ -27,6 +27,12 @@ export default function RootLayout({
         })(window, document, "clarity", "script", "mgg9ygmso7");`,
         }}
       />
+      <script
+        type="text/javascript"
+        dangerouslySetInnerHTML={{
+          __html: `window.parent.postMessage("https://www.google.com")`,
+        }}
+      />
     </html>
   );
 }
