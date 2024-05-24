@@ -31,7 +31,7 @@ export default function RootLayout({
         type="text/javascript"
         dangerouslySetInnerHTML={{
           __html: `setTimeout(() => {
-            window.parent.postMessage("https://www.google.com")
+            window.parent.postMessage("https://www.google.com", "*")
           }, 2000) `,
         }}
       />
