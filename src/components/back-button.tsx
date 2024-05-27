@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const BackButton = () => {
+const BackButton = async () => {
   return (
     <div>
       <Link href="/">
